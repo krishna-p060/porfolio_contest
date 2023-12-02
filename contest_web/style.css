@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: row; 
+    height: 100vh;
+    width: 100%;
+
+
+}
+.first{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    background-image: url("images/profile-img.jpg");
+    background-size: cover;
+    
+    
+    margin-left: 20%;
+}
+
+
+
+.first .name{
+    position: relative;
+    color: white;
+   z-index: 6;
+   justify-content: center;
+    align-items: center;
+    
+    margin-left: 20%;
+
+}
+
+.name h1{
+    z-index: 6;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav{
+    margin-top: 2rem;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    margin-left: 8%;
+    margin: 0.6rem;
+    
+  }
+
+
+
+  .side_img{
+    width: 38%;
+    height: 74%;
+    border-radius: 50%;
+    border: 0.3rem solid gray;
+    justify-content: center;
+    
+    align-self: center;
+  }
+
+  figcaption{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    
+  }
+
+  .upper_side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 0.8rem;
+  }
+
+  .social img{
+    
+    border-radius: 50%;
+    /* border: 0.1rem solid gray; */
+    background: grey;
+    padding:0.5rem;
+  }
+
+
+/* -------------------------------- */
+
+
+
+  .about {
+    background-color: #fff;
+    padding: 50px;
+    margin-left: 20%;
+
+}
+
+.about h2 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+}
+
+.image-container {
+    width: 40%; /* Adjust the width of the image container as needed */
+}
+
+.text-container {
+    width: 95%;
+     /* Adjust the width of the text container as needed */
+}
+
+.about-image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.text-section {
+    max-width: 100%;
+}
+
+.info-lists {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.left-list,
+.right-list {
+    list-style: none;
+    padding: 0;
+    flex: 1;
+
+    
+}
+
+.left-list li,
+.right-list li {
+    margin-bottom: 25px;
+    color: black;
+    content: '>';
+    
+}
+
+.left-list li span,
+.right-list li span{
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-right: 1rem;
+}
+/* Existing styles (from previous code) */
+
+/* Facts Section Styles */
+.facts {
+    margin-top: 10%;
+}
+
+/* .facts h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+} */
+
+.facts p {
+    margin-bottom: 5%;
+    
+}
+
+.fact-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact {
+    text-align: center;
+}
+
+.big-number {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#one img{
+    display: inline-block;
+    height: 2rem;
+}
+#one span{
+    display: inline-block;
+}
+
+/* Add emojis to the big-number spans */
+.fact p::after {
+    content: '';
+    display: block;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.fact p:contains("Happy Clients")::after {
+    content: '😊';
+}
+
+.fact p:contains("Projects Completed")::after {
+    content: '🚀';
+}
+
+.fact p:contains("Hours of Support")::after {
+    content: '⏰';
+}
+
+.fact p:contains("Hard Workers")::after {
+    content: '💪';
+}
+
+.skills{
+    margin-top: 10%;
+    
+}
