@@ -286,3 +286,237 @@ main{
     height: 100%;
     background-color: rgb(15, 188, 246);
 }
+
+.per{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* resume section */
+
+.resume {
+    margin-top: 40px;
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px; /* Add padding for better appearance */
+    margin-left: 20%;
+}
+
+.resume h2 {
+    
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.timelines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline {
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+.timeline.left {
+    border-left: 2px solid #3498db; /* Blue color for the left timeline */
+    padding-left: 20px;
+    align-self: flex-start;
+}
+
+.timeline.right {
+    border-left: 2px solid #3498db; /* Blue color for the right timeline */
+    padding-right: 20px;
+}
+
+.entry {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.entry  li {
+    color: black;
+}
+
+.entry h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.description,
+.school {
+    margin-top: 5px;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    background-color: #3498db; /* Blue color for the circle */
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -28px;
+}
+
+.education-entry .degree-entry {
+    margin-left: 20px; /* Add space between circle and degree entries */
+}
+
+.portfolio{
+    
+    background-color: rgb(209, 218, 241); /* Light gray background */
+    padding: 20px; /* Add padding for better appearance */
+    margin-left: 20%;
+}
+
+.portfolio h2 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    width: 30%;
+    height: 20%;
+    margin-left: 35%;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 3%;
+}
+
+.cards a{
+    text-decoration: none;
+    color: black;
+}
+
+.blocks{
+    display: flex;
+    margin-top: 5%;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blocks img{
+    height: 30%;
+    width: 30%;
+}
+
+.services{
+    background-color: rgb(233, 234, 237); /* Light gray background */
+    padding: 20px; /* Add padding for better appearance */
+    margin-left: 20%;
+}
+
+.services h2{
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+
+
+}
+.options div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.options div div div span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.options div i{
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgb(133, 157, 227);
+}
+
+.options div div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* testimonial */
+
+.container {
+    
+    margin-top: 1rem;
+    padding: 2rem;
+    
+    justify-content: space-around;
+    display: flex;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    position: relative;
+    background-color: #eae7e7;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 1.125rem;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    font-size: 1.125rem;
+    color: #777;
+    margin-left: 2.5rem;
+    
+}
+
+.testi{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
