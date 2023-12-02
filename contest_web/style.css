@@ -19,6 +19,7 @@ main{
     height: 100vh;
     background-image: url("images/profile-img.jpg");
     background-size: cover;
+    background-attachment: fixed;
     
     
     margin-left: 20%;
@@ -48,7 +49,7 @@ main{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black */
+    background-color: rgb(1,8,18); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     display: flex;
@@ -240,7 +241,7 @@ main{
     margin-top: 5px;
 }
 
-.fact p:contains("Happy Clients")::after {
+/* .fact p:contains("Happy Clients")::after {
     content: '😊';
 }
 
@@ -254,9 +255,34 @@ main{
 
 .fact p:contains("Hard Workers")::after {
     content: '💪';
-}
+} */
 
 .skills{
-    margin-top: 10%;
+    margin-top: 10%; 
+    margin-bottom: 2rem;   
+}
+
+.skill_test {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    display: flex;
     
+    justify-content: space-between;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.progress {
+    height: 10px;
+    width: 33vw;
+    background-color: rgb(226, 238, 245);
+    
+    overflow: hidden;
+}
+
+.percentage {
+    height: 100%;
+    background-color: rgb(15, 188, 246);
 }
